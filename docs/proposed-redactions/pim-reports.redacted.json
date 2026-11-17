@@ -1,0 +1,114 @@
+{
+  "list_evidence_id": "ev_99a03b5a6fb336fd7abefb02389a4ab9bdd0a8dae74db9a19c4ec6a217cfca3f",
+  "inspect_evidence_id": "ev_e542f8f0a86394215399596f7d7e0e42b9f0a62a6325529c4549ab86fc3b1894",
+  "screenshot_evidence_id": "ev_355d33e2c03a4b0e16eaf63f1734291da03ed880089be579da0d2f5ac337c1c3",
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "captured_at": "2026-11-12T08:53:41.175Z",
+  "target": {
+    "target_id": "DD1A1F0F2209E9F7A9E9630279980C1F",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports"
+  },
+  "interaction": "none; the page was already open; no field was typed and no button was clicked",
+  "headings": [
+    {
+      "name": "Employee Reports",
+      "level": 5
+    },
+    {
+      "name": "PIM",
+      "level": 6,
+      "location": "banner"
+    }
+  ],
+  "breadcrumb_role": null,
+  "module_items": [
+    {
+      "name": "Configuration",
+      "role": "text"
+    },
+    {
+      "name": "Employee List",
+      "role": "link"
+    },
+    {
+      "name": "Add Employee",
+      "role": "link"
+    },
+    {
+      "name": "Reports",
+      "role": "link"
+    }
+  ],
+  "header_account_label": null,
+  "filters": [
+    {
+      "label": "Report Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints...",
+      "accessibility_required": false,
+      "dom_attribute_names": [
+        "placeholder"
+      ]
+    }
+  ],
+  "dropdowns": [],
+  "native_select_elements": 0,
+  "native_option_elements": 0,
+  "form": {
+    "count": 1,
+    "attribute_names": [
+      "class",
+      "novalidate"
+    ],
+    "action_attribute_present": false,
+    "method_attribute_present": false
+  },
+  "buttons": [
+    "Reset",
+    "Search",
+    "Add"
+  ],
+  "search_clicked": false,
+  "reset_clicked": false,
+  "add_clicked": false,
+  "column_headers": [
+    "selection checkbox, accessible name is private-use glyph U+F26E",
+    "Name",
+    "Actions"
+  ],
+  "header_icon_note": "The Name header also includes private-use glyph U+F571. Sort behavior was not tested.",
+  "table": {
+    "data_rows_in_accessibility_tree": 5,
+    "cells_per_data_row": 3,
+    "checkboxes": 6,
+    "checkbox_checked": false,
+    "records_found_text": "(5) Records Found",
+    "report_names": [
+      "All Employee Sub Unit Hierarchy Report",
+      "Employee Contact info report",
+      "Employee Job Details",
+      "PIM Sample Report",
+      "QaReport_530297"
+    ]
+  },
+  "row_actions": {
+    "buttons_per_data_row": 3,
+    "accessible_names": "private-use glyphs U+F5DE, U+F4C9, and U+F3B8; not the words View, Edit, or Delete",
+    "clicked": false
+  },
+  "pagination": null,
+  "footer": "OrangeHRM OS 5.9",
+  "screenshot": {
+    "viewport": {
+      "width": 1295,
+      "height": 879
+    },
+    "sha256": "87db1b70cf9fc5dcdd4e40dfda6d3b3fd1707d39c4e6c4154dc5b4af3a7ca5a9",
+    "shows_all_five_rows": false,
+    "shows_pager": false,
+    "png_copied": false
+  }
+}

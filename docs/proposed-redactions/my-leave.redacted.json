@@ -1,0 +1,150 @@
+{
+  "scenario_evidence_id": "ev_ab3e07f2acffb830a518fe3b34c70cc6db7a040f2cc246416306bd041a5bc5dd",
+  "scenario_summary_evidence_id": "ev_35e0073be07ec396964e0baed07ee8909b58ca6cc7b013ecdca1d29541ee949c",
+  "inspect_evidence_id": "ev_2217b0b987f3bd75cb88f5cf03b07ce07b5359493eeb88b7112a7fe8f0e70b85",
+  "screenshot_evidence_id": null,
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "navigation": {
+    "method": "capture_browser_scenario connect",
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "start_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
+    "clicked": {
+      "role": "link",
+      "name": "My Leave"
+    },
+    "filters_changed": false,
+    "submitted": false
+  },
+  "target": {
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList"
+  },
+  "headings": [
+    {
+      "name": "Leave",
+      "level": 6
+    },
+    {
+      "name": "My Leave List",
+      "level": 5
+    }
+  ],
+  "side_navigation": [
+    "Admin",
+    "PIM",
+    "Leave",
+    "Time",
+    "Recruitment",
+    "My Info",
+    "Performance",
+    "Dashboard",
+    "Directory",
+    "Maintenance",
+    "Claim",
+    "Buzz"
+  ],
+  "topbar_links": [
+    "Apply",
+    "My Leave",
+    "Leave List",
+    "Assign Leave"
+  ],
+  "topbar_text_not_exposed_as_links": [
+    "Entitlements",
+    "Reports",
+    "Configure"
+  ],
+  "other_links": [
+    "client brand banner",
+    "Upgrade",
+    "OrangeHRM, Inc"
+  ],
+  "filters": [
+    {
+      "label": "From Date",
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "required_marker": false,
+      "displayed_value": "2026-01-01"
+    },
+    {
+      "label": "To Date",
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "required_marker": false,
+      "displayed_value": "2026-31-12"
+    },
+    {
+      "label": "Show Leave with Status",
+      "required_marker": true,
+      "visible_text": [
+        "Select",
+        "Rejected",
+        "Cancelled",
+        "Pending Approval",
+        "Scheduled",
+        "Taken"
+      ]
+    },
+    {
+      "label": "Leave Type",
+      "required_marker": false,
+      "visible_text": "-- Select --"
+    }
+  ],
+  "buttons": [
+    "Reset",
+    "Search",
+    "Upgrade",
+    "\u00d7"
+  ],
+  "unnamed_icon_buttons": {
+    "count": 3,
+    "accessible_names": "private-use glyphs only"
+  },
+  "sidepanel_search": {
+    "control": "textbox",
+    "accessible_name": "Search",
+    "required": false,
+    "displayed_value": null
+  },
+  "column_headers": [
+    "selection checkbox",
+    "Date",
+    "Employee Name",
+    "Leave Type",
+    "Leave Balance (Days)",
+    "Number of Days",
+    "Status",
+    "Comments",
+    "Actions"
+  ],
+  "table": {
+    "header_row": 1,
+    "data_rows_in_accessibility_tree": 0,
+    "header_checkbox_checked": false,
+    "empty_message": "No Records Found",
+    "cell_values_saved": false
+  },
+  "notice": {
+    "title": "Info",
+    "message": "No Records Found",
+    "close_button": "\u00d7",
+    "dismissed": false
+  },
+  "pagination": null,
+  "record_count": null,
+  "required_note": "* Required",
+  "header_account_label": null,
+  "product_footer": "OrangeHRM OS 5.9",
+  "dom_form_controls": {
+    "form": 1,
+    "input": 4,
+    "select": 0,
+    "textarea": 0,
+    "label": 5
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "scenario_evidence_id": "ev_31156cbe810a3a13c0b6b0104454a9eb132786108c6e80091a6869eee3547586",
+  "scenario_summary_evidence_id": "ev_8e3aec70dd5bdfa8fb45b72e3992fdcd9173157e48f56a14436eb5f38c4612d5",
+  "inspect_evidence_id": "ev_a72b62e8200b5784e15458a20f1f3c6cec9b8e92f7661075c697f2db9eacecfa",
+  "screenshot_evidence_id": null,
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "navigation": {
+    "method": "capture_browser_scenario connect",
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "start_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
+    "clicked": {
+      "role": "link",
+      "name": "Time"
+    },
+    "view_clicked": false,
+    "filters_changed": false,
+    "timesheet_modified": false
+  },
+  "target": {
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet"
+  },
+  "headings": [
+    {
+      "name": "Time",
+      "level": 6
+    },
+    {
+      "name": "/ Timesheets",
+      "level": 6
+    },
+    {
+      "name": "Select Employee",
+      "level": 6
+    },
+    {
+      "name": "Timesheets Pending Action",
+      "level": 6
+    }
+  ],
+  "landing_sections_inspected": [
+    "Select Employee",
+    "Timesheets Pending Action"
+  ],
+  "pending_topbar_menus_not_opened": [
+    "Timesheets",
+    "Attendance",
+    "Reports",
+    "Project Info"
+  ],
+  "select_employee": {
+    "label": "Employee Name",
+    "required_marker": true,
+    "control": "textbox",
+    "accessible_name": "Type for hints...",
+    "multiline": false,
+    "readonly": false,
+    "accessibility_required": false,
+    "displayed_value": null,
+    "suggestion_list_visible": false,
+    "button": "View",
+    "required_note": "* Required"
+  },
+  "timesheets_pending_action": {
+    "records_found_text": "(3) Records Found",
+    "column_headers": [
+      "Employee Name",
+      "Timesheet Period",
+      "Actions"
+    ],
+    "data_rows_in_accessibility_tree": 3,
+    "cells": 9,
+    "row_action_button": "View",
+    "row_action_button_count": 3,
+    "empty_message": null,
+    "pagination": null,
+    "cell_values_saved": false
+  },
+  "buttons": [
+    "View",
+    "Upgrade"
+  ],
+  "unnamed_icon_buttons": {
+    "count": 2,
+    "accessible_names": "private-use glyphs only"
+  },
+  "punch_controls_present": false,
+  "side_navigation": [
+    "Admin",
+    "PIM",
+    "Leave",
+    "Time",
+    "Recruitment",
+    "My Info",
+    "Performance",
+    "Dashboard",
+    "Directory",
+    "Maintenance",
+    "Claim",
+    "Buzz"
+  ],
+  "other_links": [
+    "client brand banner",
+    "Upgrade",
+    "OrangeHRM, Inc"
+  ],
+  "sidepanel_search": {
+    "control": "textbox",
+    "accessible_name": "Search",
+    "displayed_value": null
+  },
+  "header_account_label": null,
+  "product_footer": "OrangeHRM OS 5.9",
+  "dom_form_controls": {
+    "form": 1,
+    "input": 2,
+    "select": 0,
+    "textarea": 0,
+    "label": 1,
+    "button": 7,
+    "table": 0
+  },
+  "accessibility_table_present": true
+}

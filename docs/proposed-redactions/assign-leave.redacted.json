@@ -1,0 +1,149 @@
+{
+  "scenario_evidence_id": "ev_54a8631d2802c410f321393c9b9617fc146d45c2b1649748bdf567c833353d75",
+  "scenario_summary_evidence_id": "ev_790c3ef39a62112698e9cf8464094bc22c14cdfa078785d6e000b10fb0d51220",
+  "inspect_evidence_id": "ev_89af69caaf97f044e76e52d1ab3e9261acf9e73e870bd9a1f63f362b9346aaba",
+  "screenshot_evidence_id": null,
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "navigation": {
+    "method": "capture_browser_scenario connect",
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "start_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
+    "clicked": {
+      "role": "link",
+      "name": "Assign Leave"
+    },
+    "assign_clicked": false,
+    "employee_selected": false,
+    "leave_type_changed": false
+  },
+  "target": {
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave"
+  },
+  "headings": [
+    {
+      "name": "Leave",
+      "level": 6
+    },
+    {
+      "name": "Assign Leave",
+      "level": 6
+    }
+  ],
+  "fields": [
+    {
+      "label": "Employee Name",
+      "required_marker": true,
+      "control": "textbox",
+      "accessible_name": "Type for hints...",
+      "multiline": false,
+      "readonly": false,
+      "accessibility_required": false,
+      "displayed_value": null,
+      "suggestion_list_visible": false
+    },
+    {
+      "label": "Leave Type",
+      "required_marker": true,
+      "visible_text": "-- Select --",
+      "native_select": false,
+      "options_visible": []
+    },
+    {
+      "label": "Leave Balance",
+      "required_marker": false,
+      "displayed_value": "0.00 Day(s)"
+    },
+    {
+      "label": "From Date",
+      "required_marker": true,
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "multiline": false,
+      "readonly": false,
+      "accessibility_required": false,
+      "displayed_value": null
+    },
+    {
+      "label": "To Date",
+      "required_marker": true,
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "multiline": false,
+      "readonly": false,
+      "accessibility_required": false,
+      "displayed_value": null
+    },
+    {
+      "label": "Comments",
+      "required_marker": false,
+      "control": "textbox",
+      "accessible_name": "",
+      "multiline": true,
+      "readonly": false,
+      "accessibility_required": false,
+      "displayed_value": null
+    }
+  ],
+  "partial_days_present": false,
+  "duration_field_present": false,
+  "cancel_button_present": false,
+  "validation_messages": [],
+  "required_note": "* Required",
+  "buttons": [
+    "Assign",
+    "Upgrade"
+  ],
+  "unnamed_icon_buttons": {
+    "count": 2,
+    "accessible_names": "private-use glyphs only"
+  },
+  "side_navigation": [
+    "Admin",
+    "PIM",
+    "Leave",
+    "Time",
+    "Recruitment",
+    "My Info",
+    "Performance",
+    "Dashboard",
+    "Directory",
+    "Maintenance",
+    "Claim",
+    "Buzz"
+  ],
+  "topbar_links": [
+    "Apply",
+    "My Leave",
+    "Leave List",
+    "Assign Leave"
+  ],
+  "topbar_text_not_exposed_as_links": [
+    "Entitlements",
+    "Reports",
+    "Configure"
+  ],
+  "other_links": [
+    "client brand banner",
+    "Upgrade",
+    "OrangeHRM, Inc"
+  ],
+  "sidepanel_search": {
+    "control": "textbox",
+    "accessible_name": "Search",
+    "displayed_value": null
+  },
+  "header_account_label": null,
+  "product_footer": "OrangeHRM OS 5.9",
+  "dom_form_controls": {
+    "form": 1,
+    "input": 4,
+    "select": 0,
+    "textarea": 1,
+    "label": 6,
+    "button": 4
+  }
+}

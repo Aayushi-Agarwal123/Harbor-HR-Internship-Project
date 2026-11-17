@@ -1,0 +1,97 @@
+{
+  "list_evidence_id": "ev_1a5db0571e6dafeb94ec9e08df270c7a30182a025089ee36b22267d1fd73e2fe",
+  "scenario_evidence_id": "ev_a2aab83452e0438fcedca0359ffdee4456b79d1968d04b852e4db89e2fe0c2b9",
+  "scenario_summary_evidence_id": "ev_a415fe0912681c16581f9af4b1a20eca93ae0a9a5ded5bf4b65af2b68b6b55a1",
+  "inspect_evidence_id": "ev_6bba3523be55168510070545ba5ae2bdf2c34be3fac0ec67777de82f922c7521",
+  "screenshot_evidence_id": null,
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "navigation": {
+    "method": "capture_browser_scenario connect",
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "start_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+    "clicked": {
+      "role": "link",
+      "name": "Apply"
+    },
+    "submitted": false
+  },
+  "target": {
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave"
+  },
+  "headings": [
+    {
+      "name": "Leave",
+      "level": 6
+    },
+    {
+      "name": "Apply Leave",
+      "level": 6
+    }
+  ],
+  "empty_state": "No Leave Types with Leave Balance",
+  "form_fields": [],
+  "required_fields": [],
+  "optional_fields": [],
+  "dropdown_options_visible_without_opening": [],
+  "default_field_values": [],
+  "validation_messages": [],
+  "dom_form_controls": {
+    "input": 0,
+    "select": 0,
+    "textarea": 0,
+    "form": 0,
+    "label": 0
+  },
+  "buttons": [
+    "Upgrade"
+  ],
+  "unnamed_icon_buttons": {
+    "count": 2,
+    "accessible_names": "private-use glyphs only"
+  },
+  "side_navigation": [
+    "Admin",
+    "PIM",
+    "Leave",
+    "Time",
+    "Recruitment",
+    "My Info",
+    "Performance",
+    "Dashboard",
+    "Directory",
+    "Maintenance",
+    "Claim",
+    "Buzz"
+  ],
+  "topbar_links": [
+    "Apply",
+    "My Leave",
+    "Leave List",
+    "Assign Leave"
+  ],
+  "topbar_text_not_exposed_as_links": [
+    "Entitlements",
+    "Reports",
+    "Configure"
+  ],
+  "other_links": [
+    "client brand banner",
+    "Upgrade",
+    "OrangeHRM, Inc"
+  ],
+  "sidepanel_search": {
+    "control": "textbox",
+    "accessible_name": "Search",
+    "required": false,
+    "readonly": false,
+    "displayed_value": null
+  },
+  "header_account_label": null,
+  "header_profile_image_name": "profile picture",
+  "product_footer": "OrangeHRM OS 5.9",
+  "cell_values_saved": false
+}

@@ -1,0 +1,263 @@
+{
+  "screen": "Employee Reports",
+  "operation": "inspect_web_page",
+  "interaction": "none; the page was already open; no field was typed and no button was clicked",
+  "list_evidence_id": "ev_fdec097912568e5c9c2db7a70862526fdaf4df29de2f61af910de39f4b4155a2",
+  "inspect_evidence_id": "ev_e4834a6c0194848264e3399b963d649288f298b95a861fb60c77177ed09c2b08",
+  "confidence": "observed",
+  "authority": "external-service",
+  "captured_at": "2026-11-13T15:14:45.093Z",
+  "capture_ended_at": "2026-11-13T15:14:46.809Z",
+  "target": {
+    "target_id": "DD1A1F0F2209E9F7A9E9630279980C1F",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports"
+  },
+  "url_unchanged_from_target_list": true,
+  "headings": [
+    {
+      "name": "Employee Reports",
+      "level": 5
+    },
+    {
+      "name": "PIM",
+      "level": 6
+    }
+  ],
+  "breadcrumb_role": null,
+  "account_label": null,
+  "account_location": "banner",
+  "module_menu": {
+    "navigation_name": "Topbar Menu",
+    "items": [
+      {
+        "name": "Configuration ",
+        "role": "StaticText"
+      },
+      {
+        "name": "Employee List",
+        "role": "link"
+      },
+      {
+        "name": "Add Employee",
+        "role": "link"
+      },
+      {
+        "name": "Reports",
+        "role": "link"
+      }
+    ]
+  },
+  "sidebar": {
+    "navigation_name": "Sidepanel",
+    "links": [
+      "Admin",
+      "PIM",
+      "Leave",
+      "Time",
+      "Recruitment",
+      "My Info",
+      "Performance",
+      "Dashboard",
+      "Directory",
+      "Maintenance",
+      "Claim",
+      "Buzz"
+    ],
+    "search_textbox": {
+      "accessible_name": "Search",
+      "inside_sidepanel": true,
+      "editable": "plaintext",
+      "readonly": false,
+      "required": false,
+      "multiline": false,
+      "invalid": false,
+      "typed": false
+    }
+  },
+  "filters": [
+    {
+      "label": "Report Name",
+      "label_inside_form": true,
+      "control": "textbox",
+      "accessible_name": "Type for hints...",
+      "inside_form": true,
+      "editable": "plaintext",
+      "readonly": false,
+      "required": false,
+      "multiline": false,
+      "invalid": false,
+      "typed": false
+    }
+  ],
+  "dropdowns": [],
+  "roles_absent": [
+    "combobox",
+    "listbox",
+    "menu",
+    "option"
+  ],
+  "native_select_elements": 0,
+  "native_option_elements": 0,
+  "expanded_or_selected_states": [],
+  "form": {
+    "count": 1,
+    "attribute_names": [
+      "data-v-d5bfe35b",
+      "class",
+      "novalidate"
+    ],
+    "action_attribute_present": false,
+    "method_attribute_present": false,
+    "contains": [
+      "Report Name label",
+      "Type for hints... textbox",
+      "Reset button",
+      "Search button"
+    ],
+    "does_not_contain": [
+      "Add button"
+    ]
+  },
+  "buttons_in_form": [
+    {
+      "name": "Reset",
+      "clicked": false,
+      "focusable": true,
+      "invalid": false
+    },
+    {
+      "name": "Search",
+      "clicked": false,
+      "focusable": true,
+      "invalid": false
+    }
+  ],
+  "add_button": {
+    "accessible_name_glyph": "U+F4FE",
+    "visible_text": "Add",
+    "inside_form": false,
+    "clicked": false,
+    "focusable": true,
+    "invalid": false
+  },
+  "other_controls_not_clicked": [
+    {
+      "role": "button",
+      "glyph": "U+F235",
+      "accessible_description": null
+    },
+    {
+      "role": "button",
+      "glyph": "U+F64E",
+      "accessible_description": "Help"
+    },
+    {
+      "role": "button",
+      "glyph": "U+F284",
+      "accessible_description": null
+    },
+    {
+      "role": "link",
+      "name": "Upgrade"
+    },
+    {
+      "role": "button",
+      "name": "Upgrade"
+    },
+    {
+      "role": "link",
+      "name": "OrangeHRM, Inc"
+    },
+    {
+      "role": "link",
+      "name": "client brand banner"
+    }
+  ],
+  "column_headers": [
+    {
+      "name_glyph": "U+F26E",
+      "text": null,
+      "is_button": false
+    },
+    {
+      "text": "Name",
+      "extra_glyph": "U+F571",
+      "is_button": false
+    },
+    {
+      "text": "Actions",
+      "is_button": false
+    }
+  ],
+  "table": {
+    "accessibility_rows_including_header": 7,
+    "data_rows": 6,
+    "cells_per_data_row": 3,
+    "checkboxes": 7,
+    "checkbox_checked": false,
+    "checkbox_name_glyph": "U+F26E",
+    "records_found_text": "(6) Records Found",
+    "report_names": [
+      "All Employee Sub Unit Hierarchy Report",
+      "Employee Contact info report",
+      "Employee Job Details",
+      "PIM Sample Report",
+      "QaReport_530297",
+      "Report Night 56651"
+    ]
+  },
+  "row_actions": {
+    "buttons_per_data_row": 3,
+    "glyphs_in_order": [
+      "U+F5DE",
+      "U+F4C9",
+      "U+F3B8"
+    ],
+    "accessible_descriptions": null,
+    "names_are_words_view_edit_or_delete": false,
+    "clicked": false
+  },
+  "pagination": null,
+  "footer": "OrangeHRM OS 5.9",
+  "copyright_text": "\u00a9 2005 - 2026 . All rights reserved.",
+  "dom": {
+    "node_count": 771,
+    "input_elements": 9,
+    "button_elements": 25,
+    "anchor_elements": 18,
+    "select_elements": 0,
+    "option_elements": 0,
+    "attribute_values_retained": false
+  },
+  "compared_with_2026_11_12_capture": {
+    "prior_file": "evidence/pim-reports.redacted.json",
+    "prior_records_found_text": "(5) Records Found",
+    "current_records_found_text": "(6) Records Found",
+    "name_present_only_in_this_capture": "Report Night 56651",
+    "cause_of_added_row": "unknown",
+    "this_inspection_modified_application_data": false
+  },
+  "untested": [
+    "Search result",
+    "Reset result",
+    "Add result",
+    "sidebar Search result",
+    "autocomplete or hint list for Type for hints...",
+    "header glyph U+F571 sort result",
+    "checkbox selection result",
+    "three row-action glyphs",
+    "Help button result",
+    "Configuration menu",
+    "pagination for a larger result set",
+    "link hrefs",
+    "network method, path, and status"
+  ],
+  "limitations": [
+    "Observation starts when REA attaches; prior network and console activity is unavailable.",
+    "Storage, console text, script sources, and response bodies were not requested.",
+    "DOM attribute values, including href, type, placeholder, action, and method, were not retained.",
+    "No screenshot was taken for this recheck, so which rows are inside the viewport was not observed.",
+    "CDP discovery omitted attachment state."
+  ]
+}

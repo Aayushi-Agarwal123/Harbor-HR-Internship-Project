@@ -1,0 +1,124 @@
+{
+  "pairs": [
+    {
+      "original": "evidence/employee-list.redacted.json",
+      "copy": "docs/proposed-redactions/employee-list.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/employee-list-2026-11-12.redacted.json",
+      "copy": "docs/proposed-redactions/employee-list-2026-11-12.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/add-employee.redacted.json",
+      "copy": "docs/proposed-redactions/add-employee.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/pim-reports.redacted.json",
+      "copy": "docs/proposed-redactions/pim-reports.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/leave-list.redacted.json",
+      "copy": "docs/proposed-redactions/leave-list.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/leave-apply.redacted.json",
+      "copy": "docs/proposed-redactions/leave-apply.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/my-leave.redacted.json",
+      "copy": "docs/proposed-redactions/my-leave.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/assign-leave.redacted.json",
+      "copy": "docs/proposed-redactions/assign-leave.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/time-landing.redacted.json",
+      "copy": "docs/proposed-redactions/time-landing.redacted.json",
+      "field": "header_account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    },
+    {
+      "original": "evidence/pim-interaction-investigation/reports-page-2026-11-13.json",
+      "copy": "docs/proposed-redactions/pim-interaction-investigation/reports-page-2026-11-13.json",
+      "field": "account_label",
+      "original_nonempty": true,
+      "copy_value": "null",
+      "present": true,
+      "saved": false,
+      "diff_count": 1,
+      "approved_difference": "nonempty string replaced by null",
+      "evidence_id": null
+    }
+  ]
+}

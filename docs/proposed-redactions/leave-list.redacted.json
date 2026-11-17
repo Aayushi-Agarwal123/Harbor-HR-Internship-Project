@@ -1,0 +1,122 @@
+{
+  "list_evidence_id": "ev_1a5db0571e6dafeb94ec9e08df270c7a30182a025089ee36b22267d1fd73e2fe",
+  "inspect_evidence_id": "ev_342002a3508a74d919181cd04993486a157dbce4cafc0e66ed198bf35b801f9e",
+  "screenshot_evidence_id": null,
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "target": {
+    "target_id": "C1075BA3A8F5B98B0CEE8BCCB5E2005B",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList"
+  },
+  "headings": [
+    {
+      "name": "Leave",
+      "level": 6
+    },
+    {
+      "name": "Leave List",
+      "level": 5
+    }
+  ],
+  "side_navigation": [
+    "Admin",
+    "PIM",
+    "Leave",
+    "Time",
+    "Recruitment",
+    "My Info",
+    "Performance",
+    "Dashboard",
+    "Directory",
+    "Maintenance",
+    "Claim",
+    "Buzz"
+  ],
+  "topbar_items": {
+    "links": [
+      "Apply",
+      "My Leave"
+    ],
+    "visible_text_not_exposed_as_links": [
+      "Entitlements",
+      "Reports",
+      "Configure",
+      "More"
+    ]
+  },
+  "filters": [
+    {
+      "label": "From Date",
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "displayed_value": "2026-01-01"
+    },
+    {
+      "label": "To Date",
+      "control": "textbox",
+      "accessible_name": "yyyy-dd-mm",
+      "displayed_value": "2026-31-12"
+    },
+    {
+      "label": "Show Leave with Status",
+      "required_marker": true,
+      "visible_text": [
+        "-- Select --",
+        "Pending Approval"
+      ]
+    },
+    {
+      "label": "Leave Type",
+      "visible_text": "-- Select --"
+    },
+    {
+      "label": "Employee Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints..."
+    },
+    {
+      "label": "Sub Unit",
+      "visible_text": "-- Select --"
+    },
+    {
+      "label": "Include Past Employees",
+      "control": "checkbox",
+      "checked": false
+    }
+  ],
+  "buttons": [
+    "Reset",
+    "Search",
+    "Upgrade"
+  ],
+  "unnamed_icon_buttons": {
+    "count": 3,
+    "accessible_names": "private-use glyphs only"
+  },
+  "column_headers": [
+    "selection checkbox",
+    "Date",
+    "Employee Name",
+    "Leave Type",
+    "Leave Balance (Days)",
+    "Number of Days",
+    "Status",
+    "Comments",
+    "Actions"
+  ],
+  "table": {
+    "header_row": 1,
+    "data_rows_in_accessibility_tree": 0,
+    "empty_message": "No Records Found",
+    "header_checkbox_checked": false,
+    "cell_values_saved": false
+  },
+  "pagination": null,
+  "header_account_label": null,
+  "header_profile_image_name": "profile picture",
+  "product_footer": "OrangeHRM OS 5.9",
+  "screenshot": null,
+  "cell_values_saved": false
+}

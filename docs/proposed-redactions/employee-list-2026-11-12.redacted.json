@@ -1,0 +1,168 @@
+{
+  "list_evidence_id": "ev_dd1337aff8372982b32b321ea1afeebc6190766ceeb8176fdea9f3dfec41d0e1",
+  "inspect_evidence_id": "ev_3ea675219d0a1ce3a5b994c7f27f587683dd2ba03cba3412217f8490aa96fa82",
+  "screenshot_evidence_id": "ev_7c8bcd37abd260edd8938ceb69c4131310912a5a574e5aeb224b10a89c938d9e",
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "captured_at": "2026-11-12T08:12:43.014Z",
+  "target": {
+    "target_id": "660BA0A9B3088498822D072A31181E01",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+  },
+  "interaction": "none; capture_browser_scenario was not used; no control was clicked or typed",
+  "headings": [
+    {
+      "name": "Employee Information",
+      "level": 5
+    },
+    {
+      "name": "PIM",
+      "level": 6,
+      "location": "banner"
+    }
+  ],
+  "breadcrumb_role": null,
+  "module_items": [
+    {
+      "name": "Configuration",
+      "role": "text"
+    },
+    {
+      "name": "Employee List",
+      "role": "link"
+    },
+    {
+      "name": "Add Employee",
+      "role": "link"
+    },
+    {
+      "name": "Reports",
+      "role": "link"
+    }
+  ],
+  "header_account_label": null,
+  "filters": [
+    {
+      "label": "Employee Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints...",
+      "accessibility_required": false
+    },
+    {
+      "label": "Employee Id",
+      "control": "textbox",
+      "accessible_name": "",
+      "dom_attribute_names": [
+        "class"
+      ]
+    },
+    {
+      "label": "Employment Status",
+      "visible_closed_text": "-- Select --",
+      "role": "not a combobox; no select or option element"
+    },
+    {
+      "label": "Include",
+      "visible_closed_text": "Current Employees Only",
+      "role": "not a combobox; no select or option element"
+    },
+    {
+      "label": "Supervisor Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints...",
+      "accessibility_required": false
+    },
+    {
+      "label": "Job Title",
+      "visible_closed_text": "-- Select --",
+      "role": "not a combobox; no select or option element"
+    },
+    {
+      "label": "Sub Unit",
+      "visible_closed_text": "-- Select --",
+      "role": "not a combobox; no select or option element"
+    }
+  ],
+  "form": {
+    "count": 1,
+    "attribute_names": [
+      "class",
+      "novalidate"
+    ],
+    "action_attribute_present": false,
+    "method_attribute_present": false
+  },
+  "buttons": [
+    "Reset",
+    "Search",
+    "Add"
+  ],
+  "edit_button_name": null,
+  "delete_button_name": null,
+  "column_headers": [
+    "selection checkbox, accessible name is a private-use glyph",
+    "Id",
+    "First (& Middle) Name",
+    "Last Name",
+    "Job Title",
+    "Employment Status",
+    "Sub Unit",
+    "Supervisor",
+    "Actions"
+  ],
+  "header_icon_note": "Id, Last Name, Job Title, Employment Status, Sub Unit, and Supervisor header names also include private-use glyph U+F127. First (& Middle) Name includes U+F571. Sort behavior was not tested.",
+  "table": {
+    "data_rows_in_accessibility_tree": 50,
+    "cells_per_data_row": 9,
+    "checkboxes": 51,
+    "checkbox_checked": false,
+    "records_found_text": "(127) Records Found",
+    "columns_with_text_on_all_50_rows": [
+      "Id",
+      "First (& Middle) Name",
+      "Last Name"
+    ],
+    "columns_with_no_text_on_all_50_rows": [
+      "Job Title",
+      "Employment Status",
+      "Sub Unit",
+      "Supervisor"
+    ],
+    "cell_values_saved": false
+  },
+  "row_actions": {
+    "buttons_per_data_row": 2,
+    "accessible_names": "private-use glyphs only; not the words Edit or Delete",
+    "clicked": false
+  },
+  "pagination": {
+    "navigation_name": "Pagination Navigation",
+    "button_names": [
+      "1",
+      "2",
+      "3"
+    ],
+    "additional_private_use_button": 1,
+    "selected_state": null,
+    "records_per_page_label": null,
+    "clicked": false
+  },
+  "status_indicators": {
+    "per_row_employment_status_text": "absent on all 50 visible rows",
+    "include_closed_text": "Current Employees Only"
+  },
+  "footer": "OrangeHRM OS 5.9",
+  "screenshot": {
+    "viewport": {
+      "width": 1295,
+      "height": 879
+    },
+    "sha256": "d7b53241f2113d430f170a06e53ad8269d6c298721b68d05dfe92b21c06612e4",
+    "shows_table_body": false,
+    "shows_pager": false,
+    "same_sha256_as_earlier_viewport": "screenshots/pim-employee-list-viewport.json",
+    "png_copied": false
+  }
+}

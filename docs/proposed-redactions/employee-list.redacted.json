@@ -1,0 +1,134 @@
+{
+  "list_evidence_id": "ev_4af2c097de2a60a472864b650ec771d5ac66e1307bb18f981d95dd5b1f4432ee",
+  "inspect_evidence_id": "ev_8e5ed00755e70c237bd5761ee055730f112992a1b6542880cf3103f6aecef493",
+  "screenshot_evidence_id": "ev_fb4d142679c1230653c9075f9edc08f6524639653c0d9afa12d4a82e5f3f9175",
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "target": {
+    "target_id": "660BA0A9B3088498822D072A31181E01",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+  },
+  "not_used": [
+    "2DB7ADB1725EE8F23EB2F1497412B6FD",
+    "9E69F8BD3C458DA6C246B1101EAECE56"
+  ],
+  "headings": [
+    {
+      "name": "PIM",
+      "level": 6
+    },
+    {
+      "name": "Employee Information",
+      "level": 5
+    }
+  ],
+  "breadcrumb_role": null,
+  "module_links": [
+    "Configuration",
+    "Employee List",
+    "Add Employee",
+    "Reports"
+  ],
+  "filters": [
+    {
+      "label": "Employee Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints..."
+    },
+    {
+      "label": "Employee Id",
+      "control": "textbox",
+      "accessible_name": ""
+    },
+    {
+      "label": "Employment Status",
+      "visible_text": "-- Select --",
+      "options": null
+    },
+    {
+      "label": "Include",
+      "visible_text": "Current Employees Only",
+      "options": null
+    },
+    {
+      "label": "Supervisor Name",
+      "control": "textbox",
+      "accessible_name": "Type for hints..."
+    },
+    {
+      "label": "Job Title",
+      "visible_text": "-- Select --",
+      "options": null
+    },
+    {
+      "label": "Sub Unit",
+      "visible_text": "-- Select --",
+      "options": null
+    }
+  ],
+  "buttons": [
+    "Reset",
+    "Search",
+    "Add"
+  ],
+  "edit_button_name": null,
+  "delete_button_name": null,
+  "row_action_buttons": {
+    "count_per_visible_row": 2,
+    "accessible_names": "private-use glyphs only; not the words Edit or Delete"
+  },
+  "column_headers": [
+    "selection checkbox",
+    "Id",
+    "First (& Middle) Name",
+    "Last Name",
+    "Job Title",
+    "Employment Status",
+    "Sub Unit",
+    "Supervisor",
+    "Actions"
+  ],
+  "table": {
+    "data_rows_in_accessibility_tree": 50,
+    "cells_per_data_row": 9,
+    "checkboxes": 51,
+    "checkbox_checked": false,
+    "records_found_text": "(127) Records Found",
+    "nonempty_visible_columns": [
+      "Id",
+      "First (& Middle) Name",
+      "Last Name",
+      "Actions"
+    ],
+    "empty_visible_columns_on_all_50_rows": [
+      "Job Title",
+      "Employment Status",
+      "Sub Unit",
+      "Supervisor"
+    ],
+    "cell_values_saved": false
+  },
+  "pagination": {
+    "navigation_name": "Pagination Navigation",
+    "button_names": [
+      "1",
+      "2",
+      "3"
+    ],
+    "additional_unnamed_icon_button": 1,
+    "selected_state": null,
+    "records_per_page_label": null
+  },
+  "header_account_label": null,
+  "screenshot": {
+    "viewport": {
+      "width": 1295,
+      "height": 879
+    },
+    "shows_table_body": false,
+    "shows_pager": false,
+    "file": "screenshots/pim-employee-list-viewport.png"
+  }
+}

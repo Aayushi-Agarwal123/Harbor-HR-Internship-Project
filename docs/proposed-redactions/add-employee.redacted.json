@@ -1,0 +1,149 @@
+{
+  "list_evidence_id": "ev_87dfa425b7f26095c456afae7b2e03d63a41b7895e7c2d1aab362859232fce85",
+  "inspect_evidence_id": "ev_be00ceda12cde310042497635bcc6f35e976a956c86d1ec1d76a36e2e88be56b",
+  "screenshot_evidence_id": "ev_bc0cdec6d42b59f0d53b93c3945278e81d6046578533085cdda78b9aeb88a7b5",
+  "operation": "inspect_web_page",
+  "confidence": "observed",
+  "authority": "external-service",
+  "captured_at": "2026-11-12T08:01:50.340Z",
+  "target": {
+    "target_id": "DD1A1F0F2209E9F7A9E9630279980C1F",
+    "title": "OrangeHRM",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"
+  },
+  "not_used": [
+    "2DB7ADB1725EE8F23EB2F1497412B6FD",
+    "660BA0A9B3088498822D072A31181E01",
+    "E83DB2AFFDED9EFE12A10894E78A9F15"
+  ],
+  "interaction": "none; capture_browser_scenario was not used; no field was typed and Save was not clicked",
+  "headings": [
+    {
+      "name": "Add Employee",
+      "level": 6,
+      "location": "form card"
+    },
+    {
+      "name": "PIM",
+      "level": 6,
+      "location": "banner"
+    }
+  ],
+  "breadcrumb_role": null,
+  "module_items": [
+    {
+      "name": "Configuration",
+      "role": "text"
+    },
+    {
+      "name": "Employee List",
+      "role": "link"
+    },
+    {
+      "name": "Add Employee",
+      "role": "link"
+    },
+    {
+      "name": "Reports",
+      "role": "link"
+    }
+  ],
+  "form": {
+    "count": 1,
+    "attribute_names": [
+      "class",
+      "novalidate"
+    ],
+    "action_attribute_present": false,
+    "method_attribute_present": false,
+    "submitted": false
+  },
+  "fields": [
+    {
+      "label": "Employee Full Name",
+      "marker": "A separate static text '*' sits beside this label.",
+      "controls": [
+        {
+          "accessible_name": "First Name",
+          "role": "textbox",
+          "accessibility_required": false,
+          "invalid": false,
+          "readonly": false,
+          "dom_attribute_names": [
+            "class",
+            "name",
+            "placeholder"
+          ],
+          "html_required_attribute_present": false
+        },
+        {
+          "accessible_name": "Middle Name",
+          "role": "textbox",
+          "accessibility_required": false,
+          "invalid": false,
+          "readonly": false,
+          "dom_attribute_names": [
+            "class",
+            "name",
+            "placeholder"
+          ],
+          "html_required_attribute_present": false
+        },
+        {
+          "accessible_name": "Last Name",
+          "role": "textbox",
+          "accessibility_required": false,
+          "invalid": false,
+          "readonly": false,
+          "dom_attribute_names": [
+            "class",
+            "name",
+            "placeholder"
+          ],
+          "html_required_attribute_present": false
+        }
+      ]
+    },
+    {
+      "label": "Employee Id",
+      "accessible_name": "",
+      "role": "textbox",
+      "visible_text_inside_textbox": "0374",
+      "dom_attribute_names": [
+        "class"
+      ],
+      "dom_value_attribute_present": false,
+      "dom_node_value_length": 0
+    },
+    {
+      "label_text": "Create Login Details",
+      "role": "checkbox",
+      "accessible_name": "",
+      "checked": false,
+      "dom_attribute_names": [
+        "type"
+      ],
+      "extra_fields_while_unchecked": "No username or password textbox was in the accessibility tree."
+    }
+  ],
+  "photo": {
+    "button_name": "Choose File",
+    "hint": "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px",
+    "file_input_attribute_names": [
+      "type",
+      "class"
+    ],
+    "accept_attribute_present": false
+  },
+  "required_note": "* Required",
+  "buttons": [
+    "Cancel",
+    "Save"
+  ],
+  "save_clicked": false,
+  "cancel_clicked": false,
+  "validation_messages": null,
+  "header_account_label": null,
+  "footer": "OrangeHRM OS 5.9",
+  "attribute_values_retained": false
+}

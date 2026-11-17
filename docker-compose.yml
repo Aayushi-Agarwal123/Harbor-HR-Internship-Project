@@ -1,0 +1,10 @@
+# Optional. Docker is not required for the SQLite fallback used when PostgreSQL is absent.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: harbor
+      POSTGRES_PASSWORD: ${HARBOR_DB_PASSWORD}
+      POSTGRES_DB: harbor
+    ports:
+      - "5432:5432"
